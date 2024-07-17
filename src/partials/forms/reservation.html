@@ -1,0 +1,64 @@
+<div id="reservation" class="reservation form-block">
+  <fieldset>
+    <legend class="form-title">
+      Inscrivez-vous maintenant pour obtenir une peau belle, lisse et sans
+      poils. Réservez une date qui vous convient le plus tôt possible
+    </legend>
+    <div class="reservation__box">
+      <div class="reservation__date">
+        <div class="flatpickr">
+          <input
+            type="text"
+            name="reservation-date"
+            data-input
+            id="reservation-date"
+          />
+        </div>
+      </div>
+      <div class="reservation__time-box">
+        <div class="reservation__time">
+          <p>AM</p>
+          <label>
+            <input type="radio" name="reservation-time" value="09:00" />
+            <span>09:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="10:00" />
+            <span>10:00</span>
+          </label>
+        </div>
+        <div class="reservation__time">
+          <p>PM</p>
+          <label>
+            <input type="radio" name="reservation-time" value="14:00" />
+            <span>14:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="16:00" />
+            <span>16:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="18:00" />
+            <span>18:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="20:00" />
+            <span>20:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="22:00" />
+            <span>22:00</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <button
+    type="button"
+    data-id="submit"
+    class="reservation__btn form-btn-next btn-next"
+  >
+    <span>NEXT</span>
+    <img src="/img/icons/vector-left.svg" alt="Vector next" />
+  </button>
+</div>

@@ -1,0 +1,30 @@
+.survey-area {
+	&__box {
+		display: grid;
+		grid-template-columns: repeat(2, auto);
+		row-gap: 0.6rem;
+		justify-content: space-between;
+	}
+	&__btn {
+	}
+}
+@media screen and (max-width: 1024px) {
+	.survey-area {
+		&__box {
+			row-gap: 0.35rem;
+		}
+		&__btn {
+		}
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.survey-area {
+		&__box {
+			row-gap: 0.3rem;
+			justify-content: space-evenly;
+		}
+		&__btn {
+		}
+	}
+}

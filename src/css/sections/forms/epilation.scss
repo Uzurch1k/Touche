@@ -1,0 +1,26 @@
+.epilation {
+	&__box {
+		display: grid;
+		grid-template-columns: repeat(2, auto);
+	}
+	&__btn {
+	}
+}
+@media screen and (max-width: 1024px) {
+	.epilation {
+		&__box {
+		}
+		&__btn {
+		}
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.epilation {
+		&__box {
+			justify-content: space-evenly;
+		}
+		&__btn {
+		}
+	}
+}
