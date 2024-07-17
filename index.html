@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touche</title>
+    
+    <script type="module" crossorigin src="/Touche/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/Touche/assets/vendor-a9a541d7.js">
+    <link rel="stylesheet" href="/Touche/assets/vendor-21fdfc57.css">
+    <link rel="stylesheet" href="/Touche/assets/index-6e622d5e.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <section class="hero">
+  <video preload="auto" autoplay muted loop class="hero__bg-video">
+    <source src="/Touche/assets/bg-mov-633c21bd.mp4" type="video/mp4" />
+    <source src="/Touche/assets/bg-mov-7df5d936.webm" type="video/webm" />
+  </video>
+  <div class="hero__container">
+    <div class="container">
+      <div class="hero__body">
+        <div class="hero__content">
+          <div class="hero__address-body">
+            <address class="hero__address">
+              <a
+                href="https://maps.app.goo.gl/7mvBzBC4Zu815xKD6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                6900 Boulevard Decarie,<br />
+                Montréal, H3X 2T8
+              </a>
+              <a
+                href="https://maps.app.goo.gl/qspVhwtPGpc53ybG9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                410 rue Saint Nicolas,<br />
+                Montréal, H2Y 2P5
+              </a>
+            </address>
+          </div>
+          <a href="./index.html" class="hero__logo">
+            <img src="/Touche/assets/logo-6ac49223.svg" alt="Logo" />
+          </a>
+          <h1 class="hero__title">
+            Obtenez une peau lisse, saine et belle sans poils
+          </h1>
+          <p class="hero__sumtitle">
+            Vous souffrez toujours d'irritations, de poils incarnés et passez
+            beaucoup de temps à vous raser? Essayez l'épilation au laser avec le
+            meilleur appareil Soprano Titanium au monde
+          </p>
+          <div class="hero__box">
+            <p>
+              Faites un court test pour déterminer si l’épilation au laser vous
+              convient. Toutes les régions du corps que vous souhaitez peuvent
+              être faites en une seule séance
+            </p>
+          </div>
+          <div class="hero__btn-wrapp">
+            <button class="hero__btn vector">
+              <img
+                src="/Touche/assets/vector-down-edb0ece4.svg"
+                alt="Vector down"
+                class="vector__icon"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="authorization">
+  <div class="container">
+    <div class="authorization__body">
+      <div class="authorization__box-form">
+        <form class="authorization__form" id="submitForm">
+          <div id="survey-area" class="survey-area form-block form-active">
+  <fieldset>
+    <legend class="form-title">
+      Quelle(s) zone(s) de votre corps souhaitez-vous traiter?
+    </legend>
+    <div class="survey-area__box">
+      <label class="input-check">
+        <input type="checkbox" name="survey-area" value="Tout le corps" />
+        <span></span>
+        <p class="form-text">Tout le corps</p>
+      </label>
+      <label class="input-check">
+        <input type="checkbox" name="survey-area" value="Jambes" />
+        <span></span>
+        <p class="form-text">Jambes</p>
+      </label>
+      <label class="input-check">
+        <input type="checkbox" name="survey-area" value="Visage" />
+        <span></span>
+        <p class="form-text">Visage</p>
+      </label>
+      <label class="input-check">
+        <input type="checkbox" name="survey-area" value="Aisselles" />
+        <span></span>
+        <p class="form-text">Aisselles</p>
+      </label>
+      <label class="input-check">
+        <input type="checkbox" name="survey-area" value="Bikini" />
+        <span></span>
+        <p class="form-text">Bikini</p>
+      </label>
+      <label class="input-check">
+        <input type="checkbox" name="survey-area" value="Autre" />
+        <span></span>
+        <p class="form-text">Autre</p>
+      </label>
+    </div>
+  </fieldset>
+  <button
+    type="button"
+    data-id="allergy"
+    class="survey-area__btn form-btn-next btn-next"
+  >
+    <span>NEXT</span>
+    <img src="/Touche/assets/vector-left-0f5e1d3c.svg" alt="Vector next" />
+  </button>
+</div>
+
+          <div id="allergy" class="allergy form-block">
+  <fieldset>
+    <legend class="form-title">Avez-vous déjà souffert à cause de:</legend>
+    <div class="allergy__box">
+      <label class="input-check">
+        <input type="checkbox" name="allergy" value="Poil incarné" />
+        <span></span>
+        <p class="form-text">Poil incarné</p>
+      </label>
+      <label class="input-check">
+        <input
+          type="checkbox"
+          name="allergy"
+          value="La nécessité de se raser quotidiennement"
+        />
+        <span></span>
+        <p class="form-text">La nécessité de se raser quotidiennement</p>
+      </label>
+      <label class="input-check">
+        <input type="checkbox" name="allergy" value="Irritation de la peau" />
+        <span></span>
+        <p class="form-text">Irritation de la peau</p>
+      </label>
+      <label class="input-check">
+        <input
+          type="checkbox"
+          name="allergy"
+          value="Douceur insuffisante de la peau"
+        />
+        <span></span>
+        <p class="form-text">Douceur insuffisante de la peau</p>
+      </label>
+      <label class="input-check">
+        <input type="checkbox" name="allergy" value="Un autre" />
+        <span></span>
+        <p class="form-text">Un autre</p>
+      </label>
+    </div>
+  </fieldset>
+  <button
+    type="button"
+    data-id="epilation"
+    class="allergy__btn form-btn-next btn-next"
+  >
+    <span>NEXT</span>
+    <img src="/Touche/assets/vector-left-0f5e1d3c.svg" alt="Vector next" />
+  </button>
+</div>
+
+          <div id="epilation" class="epilation form-block">
+  <fieldset>
+    <legend class="form-title">
+      Où devons-nous envoyer votre coupon de réduction?
+    </legend>
+    <div class="epilation__box">
+      <label class="input-check">
+        <input type="radio" name="epilation" value="Oui" />
+        <span></span>
+        <p class="form-text">Oui</p>
+      </label>
+      <label class="input-check">
+        <input type="radio" name="epilation" value="Non" />
+        <span></span>
+        <p class="form-text">Non</p>
+      </label>
+    </div>
+  </fieldset>
+  <button
+    type="button"
+    data-id="destination"
+    class="epilation__btn form-btn-next btn-next"
+  >
+    <span>NEXT</span>
+    <img src="/Touche/assets/vector-left-0f5e1d3c.svg" alt="Vector next" />
+  </button>
+</div>
+
+          <div id="destination" class="destination form-block">
+  <fieldset>
+    <legend class="form-title">
+      Avez-vous déjà fait une épilation au laser?
+    </legend>
+    <div class="destination__box">
+      <div class="destination__box-inputs">
+        <label class="input-field">
+          <input
+            type="text"
+            id="destination-name"
+            name="destination-name"
+            placeholder="Nom*"
+          />
+        </label>
+
+        <label class="input-field">
+          <input
+            type="text"
+            id="destination-surname"
+            name="destination-surname"
+            placeholder="Nom de famille*"
+          />
+        </label>
+
+        <label class="input-field">
+          <input
+            type="email"
+            id="destination-email"
+            name="destination-email"
+            placeholder="E-mail*"
+          />
+        </label>
+
+        <label class="input-field">
+          <input
+            type="tel"
+            id="destination-tel"
+            name="destination-tel"
+            placeholder="Téléphone*"
+          />
+        </label>
+      </div>
+
+      <label class="destination__check">
+        <input
+          type="checkbox"
+          id="destination-check"
+          name="destination-check"
+          value="En cochant le bouton, vous nous autorisez à vous envoyer des SMS et des e-mails contenant des informations sur les mises à jour et les promotions"
+        />
+        <span></span>
+        <p class="destination__text">
+          En cochant le bouton, vous nous autorisez à vous envoyer des SMS et
+          des e-mails contenant des informations sur les mises à jour et les
+          promotions
+        </p>
+      </label>
+    </div>
+  </fieldset>
+  <button
+    type="button"
+    data-id="reservation"
+    class="destination__btn form-btn-next btn-next"
+  >
+    <span>NEXT</span>
+    <img src="/Touche/assets/vector-left-0f5e1d3c.svg" alt="Vector next" />
+  </button>
+</div>
+
+          <div id="reservation" class="reservation form-block">
+  <fieldset>
+    <legend class="form-title">
+      Inscrivez-vous maintenant pour obtenir une peau belle, lisse et sans
+      poils. Réservez une date qui vous convient le plus tôt possible
+    </legend>
+    <div class="reservation__box">
+      <div class="reservation__date">
+        <div class="flatpickr">
+          <input
+            type="text"
+            name="reservation-date"
+            data-input
+            id="reservation-date"
+          />
+        </div>
+      </div>
+      <div class="reservation__time-box">
+        <div class="reservation__time">
+          <p>AM</p>
+          <label>
+            <input type="radio" name="reservation-time" value="09:00" />
+            <span>09:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="10:00" />
+            <span>10:00</span>
+          </label>
+        </div>
+        <div class="reservation__time">
+          <p>PM</p>
+          <label>
+            <input type="radio" name="reservation-time" value="14:00" />
+            <span>14:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="16:00" />
+            <span>16:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="18:00" />
+            <span>18:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="20:00" />
+            <span>20:00</span>
+          </label>
+          <label>
+            <input type="radio" name="reservation-time" value="22:00" />
+            <span>22:00</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <button
+    type="button"
+    data-id="submit"
+    class="reservation__btn form-btn-next btn-next"
+  >
+    <span>NEXT</span>
+    <img src="/Touche/assets/vector-left-0f5e1d3c.svg" alt="Vector next" />
+  </button>
+</div>
+
+          <div id="submit" class="submit form-block">
+  <fieldset>
+    <div class="submit__box">
+      <div class="submit__box-inputs">
+        <label class="input-field">
+          <input
+            type="text"
+            name="submit-name"
+            id="submit-name"
+            placeholder="Nom*"
+          />
+        </label>
+
+        <label class="input-field">
+          <input
+            type="text"
+            id="submit-surname"
+            name="submit-surname"
+            placeholder="Nom de famille*"
+          />
+        </label>
+
+        <label class="input-field">
+          <input
+            type="email"
+            id="submit-email"
+            name="submit-email"
+            placeholder="E-mail*"
+          />
+        </label>
+
+        <label class="input-field">
+          <input
+            type="tel"
+            id="submit-tel"
+            name="submit-tel"
+            placeholder="Téléphone*"
+          />
+        </label>
+
+        <label>
+          <textarea
+            class="submit__textarea"
+            rows="2"
+            id="submit-textarea"
+            name="submit-message"
+            placeholder="Quel est le meilleur moment pour vous contacter pour confirmer votre rendez-vous?"
+          ></textarea>
+        </label>
+      </div>
+
+      <label class="submit__check">
+        <input
+          type="checkbox"
+          id="submit-check"
+          name="submit-check"
+          value="«Je ne manquerai PAS mon rendez-vous après qu'il soit prévu parce que
+je respecte votre temps et je comprends que c'est injuste envers les autres»"
+        />
+        <span></span>
+        <div class="submit__info">
+          <p class="submit__subtitle">JE RECONNAÎT CE QUI SUIT :</p>
+          <p class="submit__text">
+            «Je ne manquerai PAS mon rendez-vous après qu'il soit prévu parce
+            que je respecte votre temps et je comprends que c'est injuste envers
+            les autres»
+          </p>
+        </div>
+      </label>
+    </div>
+  </fieldset>
+  <button type="submit" data-id="completion" class="submit__btn form-submit">
+    Obtenez une opportunité <br />unique maintenant
+  </button>
+</div>
+
+          <div id="completion" class="completion form-block">
+  <div class="completion__box">
+    <h2 class="completion__title">Merci</h2>
+    <p class="completion__text">Nous vous contacterons dès que possible</p>
+  </div>
+</div>
+
+        </form>
+      </div>
+      <div class="authorization__content">
+        <h2 class="authorization__title">
+          Pourquoi l’épilation au laser chez TOUCHE Laser Clinic?
+        </h2>
+        <ul class="authorization__list">
+          <li class="authorization__item">
+            Le meilleur laser Soprano Titanium, qui combine la technologie
+            consistant à combiner trois longueurs d'ondes (alexandrite, diode et
+            néodyme) en un seul faisceau. Il s’agit de l’épilation au laser la
+            plus rapide, la plus sûre et la plus efficace au monde
+          </li>
+          <li class="authorization__item">
+            Cosmétologues professionnels qualifiés. Nous faisons l'épilation
+            pour vous comme nous la ferions pour nous-mêmes, avec minutie et
+            attention
+          </li>
+          <li class="authorization__item">
+            Nous faisons un excellent travail à un prix raisonnable! Pas de
+            démarches inutiles
+          </li>
+          <li class="authorization__item">
+            Vous serez satisfaite de votre peau lisse et agréable pour de
+            nombreuses années
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </main>
+
+      <footer class="footer">
+  <div class="container">
+    <p class="footer__copy">Copyright 2024 @ | All Rights Reserved</p>
+  </div>
+</footer>
+
+    </div>
+
+    
+  </body>
+</html>
